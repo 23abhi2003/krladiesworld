@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --kr-maroon: #6B0021;
+  --kr-gold: #C99726;
+  --kr-blush: #FFF5F7;
+}
+
+body {
+  background-color: #FFF5F7;
+  color: #1f2937;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
