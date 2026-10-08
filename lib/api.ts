@@ -1,5 +1,5 @@
 export const API_BASE = (
-  process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787'
+  process.env.NEXT_PUBLIC_API_URL || 'https://krladiesworld-api.vangaabhi766.workers.dev/'
 ).replace(/\/$/, '');
 
 export async function apiFetch(path: string, init: RequestInit = {}): Promise<Response> {
@@ -10,3 +10,4 @@ export async function apiFetch(path: string, init: RequestInit = {}): Promise<Re
   }
   return fetch(url, { ...init, headers });
 }
+      
